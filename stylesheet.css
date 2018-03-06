@@ -5,8 +5,8 @@ a {
 }
 .aboutme {
 text-align: center;
-  padding-top: 250px;
-  text-decoration: none;
+vertical-align: middle;
+padding-top: 15%;
 }
 
 .aboutme2 {
@@ -29,15 +29,14 @@ text-align: center;
 
 .background {
     background: url(pawel-nolbert-284283-unsplash.jpg);
-    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size:cover;
-
 }
 
 .wrap {
   list-style-type: none;
   background-color: #0099ff;
-  width: 101%;
+  width: auto;
   height: 45px;
   margin: -10px;
   overflow: hidden;
@@ -62,7 +61,7 @@ body {
   margin-left: 200px;
   margin-top: 100px;
   margin-right: 200px;
-  font-size: 25px;
+  font-size: 110%;
   font-family: sans-serif;
 }
 
@@ -107,5 +106,9 @@ padding-bottom: 10px;
   font-size: 30px;
   color: white;
   font-family: sans-serif;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+
 
 }
