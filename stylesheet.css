@@ -1,41 +1,84 @@
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.aboutme {
+text-align: center;
+  padding-top: 250px;
+  text-decoration: none;
+}
+
+.aboutme2 {
+  text-align: center;
+  border-style: double;
+  border-width: thick;
+  border-color: black;
+  margin-top: -200px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: #668cff;
+  background: rgba(204, 204, 204, .3);
+  padding-bottom: 650px;
+  text-decoration: none;
+}
+
 .active {
     background-color: #004d80;
   }
 
+.background {
+    background: url(pawel-nolbert-284283-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
 .wrap {
   list-style-type: none;
   background-color: #0099ff;
-  width: 100%;
+  width: 101%;
   height: 45px;
   margin: -10px;
-  margin-left: auto;
   overflow: hidden;
-  box-shadow: 0px 3px 5px grey;
-  display: inline-block;
+  text-align: center;
 }
 
 .navbar {
-  text-align: left;
+  float:left;
+}
+
+body {
+  background-size:cover;
 }
 
 .button {
   display: inline;
 }
 
-.title {
+.text {
+  color: white;
+  opacity: 100%;
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-right: 200px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.text, .headshot {
   display: inline-block;
-  text-align: center;
+}
+
+.title {
   color: white;
   font-size: 20px;
   font-family: sans-serif;
   text-decoration: none;
-  margin-left: 300px;
   font-weight: bold;
+  margin-right: 200px;
 }
 
-.title, .navbar {
-  display: inline-block;
-}
 
 li a {
     display: inline;
@@ -51,7 +94,18 @@ li a:hover:not(.active) {
     background-color: #007acc;
   }
 
+.profile {
+border-style: solid;
+border-radius: 30px;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
 
 .welcome {
-  font-size: 50px;
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+
 }
