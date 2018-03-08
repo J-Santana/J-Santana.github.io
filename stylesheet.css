@@ -9,20 +9,6 @@ vertical-align: middle;
 padding-top: 15%;
 }
 
-.aboutme2 {
-  text-align: center;
-  border-style: double;
-  border-width: thick;
-  border-color: black;
-  margin-top: -200px;
-  margin-left: 150px;
-  margin-right: 150px;
-  background-color: #668cff;
-  background: rgba(204, 204, 204, .3);
-  padding-bottom: 650px;
-  text-decoration: none;
-}
-
 .active {
     background-color: #004d80;
   }
@@ -45,6 +31,14 @@ padding-top: 15%;
     width: 100%;
 }
 
+.background3 {
+    background: url(bobby-burch-145906-unsplash.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+}
 
 .wrap {
   list-style-type: none;
@@ -119,6 +113,19 @@ padding-top: 10px;
 padding-bottom: 10px;
 }
 
+.portfolio {
+    border-style: double;
+    border-width:5px;
+    border-color: black;
+    margin-top:100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #668cff;
+    background: rgba(204, 204, 204, .3);
+    padding-bottom: 650px;
+    text-decoration: none;
+  }
+
 .welcome {
   font-size: 30px;
   color: white;
@@ -126,6 +133,8 @@ padding-bottom: 10px;
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
+}
 
-
+.Row1 {
+  display: inline;
 }
