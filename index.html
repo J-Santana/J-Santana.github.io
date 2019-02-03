@@ -1,5 +1,20 @@
 <!DOCTYPE html>
 <html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <!--<![endif]-->
+<!-- Set the viewport width to device width for mobile -->
+
+<!-- Included CSS Files -->
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="stylesheets/ie.css">
+<![endif]--><script type="text/javascript" src="javascripts/modernizr.foundation.js"></script>
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 <head>
   <title>JSantana Portfolio</title>
   <link rel="stylesheet" href="stylesheet.css">
@@ -9,6 +24,8 @@
   <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
 </head>
 <body class="background">
+  <div class="row">
+    <div class="twelve columns">
   <div class="wrap">
     <ul class="navbar">
       <li class="button"><a class="active" href="index.html">Home</a></li>
@@ -17,7 +34,10 @@
     </ul>
     <div class="title"><p><a class="title" href="index.html">JSantana Portfolio</a></p></div>
   </div>
-
+</div>
+</div>
+<div class="row">
+  <div class="twelve columns">
   <div class="aboutme">
     <div class="welcome">
       <h1 class="animated fadeInDown">Welcome</h1>
@@ -27,5 +47,7 @@
       </div>
     </div>
   </div>
+</div>
+</div>
 </body>
 </html>
